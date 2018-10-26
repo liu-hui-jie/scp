@@ -124,6 +124,9 @@
     <ClInclude Include="libssh2.h" />
     <ClInclude Include="libssh2_config.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Debug\libssh2.dll" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

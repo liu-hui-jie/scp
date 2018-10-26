@@ -95,6 +95,7 @@ int main()
 		fprintf(stderr, "Can't open local file %s\n", loclfile);
 		return -1;
 	}
+	//
 
 	stat(loclfile, &fileinfo);
 
