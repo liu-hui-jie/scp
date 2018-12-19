@@ -118,14 +118,14 @@
     <Library Include="libssh2.lib" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="libssh2.h" />
     <ClInclude Include="libssh2_config.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\libssh2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LTEUpgrade.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
